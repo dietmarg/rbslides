@@ -5,7 +5,7 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 @import url(https://fonts.googleapis.com/css?family=Droid:400,700,400italic,700italic);
 /*********************************************
  * GLOBAL STYLES
@@ -15,7 +15,7 @@ body {
   background-color: #2077bd; }
 
 .reveal {
-  font-family: "Droid", sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
@@ -35,10 +35,10 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
   color: #fff;
-  font-family: "Droid", Impact, sans-serif;
-  line-height: 0.9em;
+  font-family: "Droid Serif", Roboto, Impact, sans-serif;
+  line-height: 1.1em;
   letter-spacing: 0.02em;
   text-transform: none;
   text-shadow: none; }
@@ -137,7 +137,12 @@ body {
 .reveal .slide-number {
   color: #fff; }
 
-img {
-  border: none; }
+.reveal h1 {
+  font-size: 3em; }
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+  transition: none; }
 
 /*# sourceMappingURL=rb_simple.css.map */
