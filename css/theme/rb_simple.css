@@ -139,10 +139,11 @@ body {
 
 .reveal h1 {
   font-size: 3em; }
-
 .reveal section img {
   border: none;
   box-shadow: none;
   transition: none; }
+.reveal ul {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=rb_simple.css.map */
