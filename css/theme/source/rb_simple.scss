@@ -21,7 +21,7 @@
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Droid Sans', sans-serif;
 $mainColor: #fff;
-$headingFont: 'Droid Serif', Roboto, Impact, sans-serif;
+$headingFont: 'Droid Serif', Roboto, sans-serif;
 $headingLineHeight: 1.1em;
 $headingColor: #fff;
 $headingTextShadow: none;
@@ -30,7 +30,7 @@ $headingMargin: 0 0 40px 0;
 $backgroundColor: #2077bd;
 $linkColor: #fff;
 $linkColorHover: darken( $linkColor, 20% );
-$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$selectionBackgroundColor: #2077bd;
 
 
 
@@ -52,5 +52,9 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
   ul {
     margin-bottom:30px;
+  }
+
+  .state-background {
+    background: #2077bd;
   }
 }

@@ -23,7 +23,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: rgba(0, 0, 0, 0.99);
+  background: #2077bd;
   text-shadow: none; }
 
 /*********************************************
@@ -37,7 +37,7 @@ body {
 .reveal h6 {
   margin: 0 0 40px 0;
   color: #fff;
-  font-family: "Droid Serif", Roboto, Impact, sans-serif;
+  font-family: "Droid Serif", Roboto, sans-serif;
   line-height: 1.1em;
   letter-spacing: 0.02em;
   text-transform: none;
@@ -145,5 +145,7 @@ body {
   transition: none; }
 .reveal ul {
   margin-bottom: 30px; }
+.reveal .state-background {
+  background: #2077bd; }
 
 /*# sourceMappingURL=rb_simple.css.map */
