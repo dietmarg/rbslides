@@ -27,7 +27,7 @@ $headingColor: #fff;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $headingMargin: 0 0 40px 0;
-$backgroundColor: #2077bd;
+$backgroundColor: #2077BD; //#2077bd;
 $linkColor: #fff;
 $linkColorHover: darken( $linkColor, 20% );
 $selectionBackgroundColor: #2077bd;
@@ -55,7 +55,7 @@ $selectionBackgroundColor: #2077bd;
   }
 
   .state-background {
-    background: #2077bd;
+    background: #2077BD;
   }
 }
 

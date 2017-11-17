@@ -11,8 +11,8 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #2077bd;
-  background-color: #2077bd; }
+  background: #2077BD;
+  background-color: #2077BD; }
 
 .reveal {
   font-family: "Droid Sans", sans-serif;
@@ -146,6 +146,9 @@ body {
 .reveal ul {
   margin-bottom: 30px; }
 .reveal .state-background {
-  background: #2077bd; }
+  background: #2077BD; }
+
+.notes li {
+  font-size: 18px; }
 
 /*# sourceMappingURL=rb_simple.css.map */
