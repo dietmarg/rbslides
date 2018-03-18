@@ -19,18 +19,18 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: 'Droid Sans', sans-serif;
+$mainFont: "Fira Sans",'Droid Sans', sans-serif;
 $mainColor: #fff;
-$headingFont: 'Droid Serif', Roboto, sans-serif;
+$headingFont: Gemma,"Fira Sans",'Droid Serif', Roboto, sans-serif;
 $headingLineHeight: 1.1em;
 $headingColor: #fff;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $headingMargin: 0 0 40px 0;
-$backgroundColor: #2077BD; //#2077bd;
+$backgroundColor: #f5f5f6; //#1798BA; //#2077bd;
 $linkColor: #fff;
 $linkColorHover: darken( $linkColor, 20% );
-$selectionBackgroundColor: #2077bd;
+$selectionBackgroundColor: #1798BA;
 
 
 
@@ -55,7 +55,7 @@ $selectionBackgroundColor: #2077bd;
   }
 
   .state-background {
-    background: #2077BD;
+    background: #f5f5f6;
   }
 }
 
@@ -63,3 +63,17 @@ $selectionBackgroundColor: #2077bd;
   font-size: 18px;
 }
 
+.textslide {
+  height: 90%;
+  background-color: #fff;
+  padding: 50px 30px;
+  color: #1798BA;
+
+  h1, h2, h3, h3, h4, small, p, a {
+    color: #1798BA;
+  }
+}
+
+.reveal .slides>section, .reveal .slides>section>section {
+  padding: 25px 0;
+}
